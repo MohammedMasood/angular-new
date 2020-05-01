@@ -1,0 +1,135 @@
+<div class="dt-root">
+
+    <!-- Login Container -->
+    <div class="dt-login--container dt-app-login--container">
+
+        <!-- Login Content -->
+        <div class="dt-login__content-wrapper">
+
+            <!-- Login Background Section -->
+            <div class="dt-login__bg-section">
+
+                <div class="dt-login__bg-content">
+				
+                    <!-- Login Title -->
+                    <h1 class="dt-login__title">Sign In</h1>
+                    <!-- /login title -->
+
+                    <p class="f-16">By Signing Up, you can avail full features of our services.</p>
+
+                    <p class="f-16">Get an account !!!</p>
+                </div>
+
+
+                <!-- Brand logo -->
+                <div class="dt-login__logo">
+                    <a class="dt-brand__logo-link" href="index.html">
+                        <img class="dt-brand__logo-img" src="https://via.placeholder.com/90x18" alt="Wieldy">
+                    </a>
+                </div>
+                <!-- /brand logo -->
+
+            </div>
+            <!-- /login background section -->
+
+            <!-- Login Content Section -->
+            <div class="dt-login__content">
+
+                <!-- Login Content Inner -->
+                <div class="dt-login__content-inner">
+
+                    <!-- Form -->
+                    <form action="index.html">
+
+                        <!-- Form Group -->
+                        <div class="form-group">
+                            <label class="sr-only" for="email-1">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email-1" placeholder="Enter email" #userEmail>
+                        </div>
+                        <!-- /form group -->
+
+                        <!-- Form Group -->
+                        <div class="form-group">
+                            <label class="sr-only" for="password-1">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" #userPassword>
+                        </div>
+                        <!-- /form group -->
+
+                        <!-- Form Group -->
+                        <div class="custom-control custom-checkbox mb-6 mb-lg-8">
+                            <input class="custom-control-input" type="checkbox" id="checkbox-1" checked="checked">
+                            <label class="custom-control-label" for="checkbox-1">by signing up, I accept <a href="javascript:void(0)" class="px-2">Term &amp; Condition</a></label>
+                        </div>
+                        <!-- /form group -->
+
+                        <!-- Form Group -->
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary text-uppercase" value="Login" (click)="authservice.signIn(userEmail.value, userPassword.value)">Sign In</button>
+                            <span class="d-inline-block ml-4">Or
+              <a class="d-inline-block font-weight-medium ml-3" routerLink="/sign-up">Sign Up</a>
+            </span>
+                        </div>
+                        <!-- /form group -->
+
+                        <!-- Form Group -->
+                        <div class="d-flex flex-wrap align-items-center mb-3 mb-md-4">
+                            <span class="d-inline-block mr-2">Or connect with</span>
+
+                            <!-- List -->
+                            <ul class="dt-list dt-list-sm dt-list-cm-0 ml-auto">
+                                <li class="dt-list__item">
+                                    <!-- Fab Button -->
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary dt-fab-btn size-30">
+                                        <i class="icon icon-facebook icon-xl"></i>
+                                    </a>
+                                    <!-- /fab button -->
+                                </li>
+
+                                <li class="dt-list__item">
+                                    <!-- Fab Button -->
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary dt-fab-btn size-30">
+                                        <i class="icon icon-google-plus icon-xl"></i>
+                                    </a>
+                                    <!-- /fab button -->
+                                </li>
+
+                                <li class="dt-list__item">
+                                    <!-- Fab Button -->
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary dt-fab-btn size-30">
+                                        <i class="icon icon-github icon-xl"></i>
+                                    </a>
+                                    <!-- /fab button -->
+                                </li>
+
+                                <li class="dt-list__item">
+                                    <!-- Fab Button -->
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary dt-fab-btn size-30">
+                                        <i class="icon icon-twitter icon-xl"></i>
+                                    </a>
+                                    <!-- /fab button -->
+                                </li>
+                            </ul>
+                            <!-- /list -->
+                        </div>
+                        <!-- /form group -->
+
+                        <span class="text-light-gray"> demo user email: 'demo@example.com' and password: 'demo#123'</span>
+
+
+                    </form>
+                    <!-- /form -->
+
+                </div>
+                <!-- /login content inner -->
+
+            </div>
+            <!-- /login content section -->
+
+        </div>
+        <!-- /login content -->
+
+    </div>
+    <!-- /login container -->
+  
+</div>
+<!-- /root -->

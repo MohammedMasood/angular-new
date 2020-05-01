@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "workspace"
+    }
+  },
+  "defaultProject": "workspace",
+  "cli": {
+    "analytics": "bc23627f-cde4-4ff8-85e5-3f9d23b6285f"
+  }
 }
